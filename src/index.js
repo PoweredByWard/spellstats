@@ -10,6 +10,7 @@ ReactDOM.render(
   <React.StrictMode>
     <Router>
       <Switch>
+      <Route path="/" exact component={Classes}/>
       <Route path="/classes" component={Classes}/>
       <Route path="/overview" component={Overview}/>
       </Switch>
