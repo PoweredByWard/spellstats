@@ -1,7 +1,7 @@
 import "./App.css";
-import React, { useState } from "react";
-import Class from "./Class";
-import { getClass } from "./utils/classesConvertor";
+import React from "react";
+//import Class from "./Class";
+//import { getClass } from "./utils/classesConvertor";
 import { Link} from "react-router-dom";
 import Header from "./header";
 
@@ -18,12 +18,8 @@ function Classes() {
         </Link>
       </ul>
       <ul className="navsecond">
-        <a href="">
           <li className="item active">Battle Royale</li>
-        </a>
-        <a href="">
           <li className="item">CLASH</li>
-        </a>
       </ul>
       <div className="body">
         <div className="body-compcontent">

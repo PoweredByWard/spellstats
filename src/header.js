@@ -6,7 +6,7 @@ import Stat from "./Stat";
 import { getClass } from "./utils/classesConvertor";
 
 function Header(props) {
-    const [user, setUser] = useState({
+    const [user] = useState({
         name: "Powered",
         sub: "#3343",
         class: "Frostborn",
@@ -20,10 +20,10 @@ function Header(props) {
     <div className="header">
       <div className="header-content">
         <div className="decorationtop">
-          <img src={top} />
+          <img src={top} alt="" />
         </div>
         <div className="topcontainter">
-          <img className="classicon" src={getClass(user.class)} />
+          <img className="classicon" src={getClass(user.class)} alt="" />
           <div className="player-info">
             <span className="platform">
               {user.platform} - {user.region}
@@ -40,7 +40,7 @@ function Header(props) {
           <Stat title="WINRATE" value={user.winrate} />
         </ul>
         <div className="decorationbottom">
-          <img src={bottom} />
+          <img src={bottom} alt=""  />
         </div>
       </div>
     </div>

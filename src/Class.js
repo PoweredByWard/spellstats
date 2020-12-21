@@ -18,29 +18,30 @@ function Class(props) {
         <img
           className="class-icon"
           src={props.classinfo.icon}
+          alt=""
           style={{ borderColor: props.classinfo.color }}
         />
         <div className="class-content">
           <div className="class-row">
             <div className="class-row-item">
-              <img src={TimeIcon} className="timeicon" />
+              <img src={TimeIcon} alt="" className="timeicon" />
               <span className="class-row-title">Played </span>
               <span className="class-row-value">
                 {props.classinfo.playtime}
               </span>
             </div>
             <div className="class-row-item">
-              <img src={kda} className="timeicon" />
+              <img src={kda} alt="" className="timeicon" />
               <span className="class-row-value">{props.classinfo.exiles}</span>
               <span className="class-row-title"> Exiles </span>
             </div>
             <div className="class-row-item">
-              <img src="" className="timeicon" />
+              <img src="" alt="" className="timeicon" />
               <span className="class-row-value">{props.classinfo.exiles}</span>
               <span className="class-row-title"> Assists </span>
             </div>
             <div className="class-row-item">
-              <img src="" className="timeicon" />
+              <img src="" alt="" className="timeicon" />
               <span className="class-row-value">{props.classinfo.exiles}</span>
               <span className="class-row-title"> Matches played </span>
             </div>

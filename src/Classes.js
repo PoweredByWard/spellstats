@@ -1,6 +1,4 @@
 import "./App.css";
-import top from "./icons/top.png";
-import bottom from "./icons/bottom.png";
 import React, { useState } from "react";
 import Class from "./Class";
 import { getClass } from "./utils/classesConvertor";
@@ -8,7 +6,7 @@ import { Link} from "react-router-dom";
 import Header from "./header";
 
 function Classes() {
-  const [classes, setclasses] = useState({
+  const [classes] = useState({
     Conduit: {
       title: "Conduit",
       color: "rgb(10, 12, 36)",
@@ -125,12 +123,8 @@ function Classes() {
         </Link>
       </ul>
       <ul className="navsecond">
-        <a href="">
           <li className="item active">Battle Royale</li>
-        </a>
-        <a href="">
           <li className="item">CLASH</li>
-        </a>
       </ul>
       <div className="body">
         <div className="body-compcontent">
