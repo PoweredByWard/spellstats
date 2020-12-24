@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import Classes from "./components/Classes";
-import comingSoon from "./components/comingSoon";
+import comingSoon from "./components/ComingSoon";
 import Overview from "./components/Overview";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
