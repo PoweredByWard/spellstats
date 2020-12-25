@@ -13,6 +13,11 @@ function comingSoon(params) {
             <h4>For more info please frein to our social:</h4>
             <div className="socialsContainer">
                 <a href="https://twitter.com/spellstats"><img alt="" src={twitter} className="social" /></a>
+
+            </div>
+            <h4>Spellbreak trailer:</h4>
+            <div className="yt">
+            <iframe width="720" height="400" src="https://www.youtube.com/embed/pSmvbSFUDf8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
       </div>

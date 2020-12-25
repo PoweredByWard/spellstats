@@ -27,6 +27,11 @@ ul {
   margin-inline-end: 0px;
   padding-inline-start: 40px;
 }
+.yt{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
 .active {
   color: rgb(247, 189, 105) !important;
 }
