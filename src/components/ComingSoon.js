@@ -17,7 +17,7 @@ function comingSoon(params) {
             </div>
             <h4>Spellbreak trailer:</h4>
             <div className="yt">
-            <iframe width="720" height="400" src="https://www.youtube.com/embed/pSmvbSFUDf8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="720" height="400" title="trailer"  src="https://www.youtube.com/embed/pSmvbSFUDf8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
       </div>
