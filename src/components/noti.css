@@ -1,0 +1,53 @@
+.noti-background{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.noti-container{
+    padding: 50px;
+    border-radius: 2rem;
+    background-color: rgba(34, 34, 34, 1);
+    box-shadow: 2px 2px 14px 2px rgba(0,0,0,0.66);
+}
+.noti-title{
+    font-family: Rajdhani, Roboto, -apple-system, BlinkMacSystemFont, Segoe UI,
+    Oxygen-Sans, Ubuntu, Cantarell, Helvetica, Arial, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+.noti-socials{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.noti-twitter{
+    background-color: #1da1f2;
+    height: 38px;
+    width: 180px;
+    border-radius: 0.25rem;
+    text-align: center;
+}
+.noti-twitter-logo{
+    height: 35px;
+    margin-top: 2px;
+}
+.noti-instagram{
+    margin-left: 20px;
+    background-color: #e1306c;
+    height: 38px;
+    width: 180px;
+    border-radius: 0.25rem;
+    text-align: center;
+}
+.noti-instagram-logo{
+    height: 30px;
+    margin-top: 5px;
+}
