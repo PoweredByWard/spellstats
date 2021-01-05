@@ -1,8 +1,8 @@
 .socials-cont{
-    margin-top: 20px;
+    margin-top: 50px;
     padding: 2rem;
     z-index: 1;
-    background-color: rgba(42, 42, 42, 0.53);
+    background-color: 0e141a;
 }
 .socials-container{
     display: flex;

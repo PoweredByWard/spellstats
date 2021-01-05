@@ -1,6 +1,6 @@
 .footer {
   z-index: 1;
-  background-color: rgba(42, 42, 42, 0.53);
+  background-color: rgba(42, 42, 42, 0.03);
   padding: 2rem;
   position: relative;
 }

@@ -58,6 +58,7 @@ input {
 .cover {
   max-width: 100%;
   margin: 0;
+  background-position: 0 50px;
   background-size: 100% auto;
   background-repeat: no-repeat;
   border-radius: 0 0 0 200px;
@@ -70,7 +71,7 @@ input {
   display: flex;
   justify-content: space-between;
 
-  padding: 4.5rem 4.5rem 8rem;
+  padding: 8rem 4.5rem 5rem;
 }
 .search {
   box-sizing: border-box;

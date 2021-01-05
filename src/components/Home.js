@@ -10,6 +10,7 @@ import Update from "./Update";
 import Noti from "./Noti";
 import Socials from "./Socials";
 import { getClass } from "../utils/classesConvertor";
+import Navigation from "./Navigation";
 
 //import Class from "./Class";
 //import { getClass } from "./utils/classesConvertor";
@@ -74,8 +75,11 @@ function Home() {
   }
   return (
     <React.Fragment>
-      <Noti />
+      {
+        //<Noti />
+      }
       <div className="body">
+        <Navigation Home=""/>
         <div className="background">
           <div className="cover">
             <div className="cover-content">
@@ -91,7 +95,7 @@ function Home() {
                   <form action="post">
                     <input
                       className="searchbar"
-                      placeholder="Enter Spellbrake Username"
+                      placeholder="Enter Spellbreak Username"
                       type="search"
                     />
                   </form>
@@ -213,7 +217,7 @@ function Home() {
                 </div>
                 <div className="meta-item">
                   <img
-                   alt="" 
+                    alt=""
                     src={getClass("Stoneshaper")}
                     className="meta-item-image"
                   />
@@ -230,7 +234,7 @@ function Home() {
         <div className="addcontainer"></div>
         <div className="updates-container">
           <h2 className="updates-title">
-            <img alt=""  src={update} className="updates-logo" />
+            <img alt="" src={update} className="updates-logo" />
             Updates
           </h2>
           <div className="updates">{shownUpdates}</div>
